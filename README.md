@@ -21,4 +21,5 @@ I recommend using either `g++` or `clang++` with the following example :
 
 * On Unix based OS
 >   sudo chmod u+x ./bin/D1Part1
+
 >   ./bin/D1Part1
