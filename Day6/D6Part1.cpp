@@ -43,7 +43,7 @@ public:
 int main()
 {
     ifstream INP("input.txt");
-    Packet_Marker PM(string() + char(INP.get()) ); // Horrible code
+    Packet_Marker PM(string() + char(INP.get()) ); // Horrible code (turns out i was doing undefined behaviour)
     PM.BUFFER.push_back(char(INP.get()));
     PM.BUFFER.push_back(char(INP.get()));
     PM.BUFFER.push_back(char(INP.get()));
